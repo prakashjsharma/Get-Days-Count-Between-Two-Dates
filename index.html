@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+    <link rel="stylesheet" href="css/datetimepicker.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row" style="margin: 1em;">
+            <div class="col-md-4 form-group">
+                <label>From Date</label>
+                <div class="input-group" id="dateStart">
+                    <input type="text" id="txtFromDate" class="form-control" placeholder="FROM" />
+                </div>
+            </div>
+
+            <div class="col-md-4 form-group">
+                <label>To Date</label>
+                <div class="input-group" id="dateEnd">
+                    <input type="text" id="txtToDate" class="form-control" placeholder="TO" />
+                </div>
+            </div>
+
+            <div class="col-md-4 form-group">
+                <label>No. of Days</label>
+                <input type="number" id="txtCycle" class="form-control " disabled placeholder="No. Of Days" min="1"
+                    max="7" step="1" />
+            </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+<script src="js/datepicker.js"></script>
+<script src="js/daterangepicker.js"></script>
+<script src="js/datetimepicker.min.js"></script>
+<script src="js/moment.min.js"></script>
+
+</html>
